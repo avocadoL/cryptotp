@@ -1,0 +1,27 @@
+# Docker files
+Dockerfile
+docker-compose.yml
+
+# Automation scripts
+*.sh
+run_exercises.sh
+
+# Temporary files
+*.csr
+hash_*
+
+# Generated files by default
+*.pem
+*.enc
+*.bin
+
+# Keep verification files
+!cle_privee.pem
+!cle_publique.pem
+!certificat.pem
+!fichier_chiffre.enc
+!fichier_dechiffre.txt
+!signature.bin
+
+# Always keep the input file
+!fichier_enc.txt 
